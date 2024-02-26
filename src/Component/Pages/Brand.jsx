@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container} from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
-import SideBar from '../Sidebar/SideBar';
+
 
 const Brand = () => {
   return (
@@ -12,7 +12,7 @@ const Brand = () => {
       <Navbar.Collapse className='justify-content-end'>
       
       
-      <SideBar/>
+    
       </Navbar.Collapse>
       </Container>
       </Navbar>
