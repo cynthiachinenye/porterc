@@ -1,0 +1,14 @@
+.navbar{
+    height:100px;
+   
+
+}
+.navbar-brand{
+    /* padding-left: 200px; */
+    font-size:30px;
+    font-weight:500;
+}
+.bell-icon{
+    color:#25324B;
+   margin-left:800px;
+}

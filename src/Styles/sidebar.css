@@ -1,5 +1,12 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+.sidebar{
+    width:200px;
+    height:100vh;
+    background-color:#F8F8FD;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    z-index:1;
+    position: absolute;
+   
+
 }
