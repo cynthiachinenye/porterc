@@ -14,16 +14,24 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <img src={Logo} alt='logo' />
-      <div className='sidebar-content'>
-        <Link to='/dashboard'><RiHome2Line />Dashboard</Link>
-        <Link to='/messages'><TbMessage2 />Messages</Link>
-        <Link to='/applied'><FaRegFileLines />Applied Jobs</Link>
-        <Link to='/Find '><CiSearch />Find Jobs</Link>
-        <Link to='/companies'><PiBuildings />Browse Companies</Link>
-        <Link to='/profile'><IoPersonOutline />My Public Profile</Link>
+      <div className='sidebar-content '>
+        <Link to='/dashboard'><RiHome2Line  className="icon"/>Dashboard</Link>
+        <Link to='/messages'><TbMessage2 className="icon"/>Messages</Link>
+        <Link to='/applied'><FaRegFileLines className="icon" />Applied Jobs</Link>
+        <Link to='/Find '><CiSearch className="icon"/>Find Jobs</Link>
+        <Link to='/companies'><PiBuildings className="icon" />Browse Companies</Link>
+        <Link to='/profile'><IoPersonOutline className="icon" />My Public Profile</Link>
         <p>SETTINGS</p>
-        <Link to='settings'><RiSettings5Line />Settings</Link>
-        <Link to='/help '><BiHelpCircle />Help Center</Link>
+        <Link to='settings'><RiSettings5Line className="icon" />Settings</Link>
+        <Link to='/help '><BiHelpCircle className="icon" />Help Center</Link>
+      </div>
+
+  <div className="profile">
+      <img src={} alt='img'/> 
+      <div className="profile-content">
+      <span>Jake Gyll</span>
+      <p>jakegyll@email.com</p>
+      </div>
       </div>
       </div>
       );
