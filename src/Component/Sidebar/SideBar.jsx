@@ -30,8 +30,9 @@ const Sidebar = () => {
   <div className="profile">
       <img src={icon} alt='img' className="img"/> 
       <div className="profile-content">
-      <span>Jake Gyll</span>
-      <p>jakegyll@email.com</p>
+      <p>Jake Gyll<br/>
+      <span>jakegyll@email.com</span>
+      </p>
       </div>
       </div>
       </div>

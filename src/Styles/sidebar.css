@@ -17,6 +17,7 @@ img{
 .sidebar-content{
     margin-top:35px;
     border-bottom: 1px solid #aba6a6;
+    
 }
 a{
     text-decoration: none;
@@ -38,10 +39,26 @@ a:hover{
 }
 .profile{
     display:flex;
-    
+    /* align-items:center; */
+    margin-top:120px;
+
+ 
 }   
 .img{
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
     border-radius:50%;
+
 }
+.profile p{
+    font-size: 15px;
+    padding-left:10px;
+    font-weight:bold;
+    line-height: 15px;
+}
+.profile span{
+   
+    font-size:12px;
+    font-weight:100;
+}
+
