@@ -1,5 +1,6 @@
 import "../../Styles/sidebar.css"
 import React from 'react'
+import icon from '../../Assets/alex-suprun-ZHvM3XIOHoE-unsplash 1.png';
 import Logo from '../../Assets/site_logo_1600674075 1.png'
 import { Link } from 'react-router-dom'
 import { RiHome2Line, RiSettings5Line } from "react-icons/ri";
@@ -27,7 +28,7 @@ const Sidebar = () => {
       </div>
 
   <div className="profile">
-      <img src={} alt='img'/> 
+      <img src={icon} alt='img' className="img"/> 
       <div className="profile-content">
       <span>Jake Gyll</span>
       <p>jakegyll@email.com</p>
