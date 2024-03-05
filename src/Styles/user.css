@@ -1,0 +1,24 @@
+.user-content{
+   width:100%;
+   border:1px black solid;
+    
+}
+.jobs{
+   display: flex;
+   flex-direction: column;
+}
+.job{
+    height: 100px;
+    width:180px;
+    border:1px solid #000;
+    margin:10px 0;
+    color:#ffffff;
+ 
+}
+.applied{
+    background-color:#4307C2;
+    
+}
+.interview{
+    background-color:#CE1DA7;
+}

@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import  Navbar from  './Component/Pages/Brand'
  import SideBar from './Component/Sidebar/SideBar';
+import User from './Component/Contents/User';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <SideBar />
       <div className="content">
         <Navbar />
-        <h1>Main Content</h1>
+       <User/>
       </div>
     </div>
   );
