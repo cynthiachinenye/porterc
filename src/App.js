@@ -5,6 +5,7 @@ import  Navbar from  './Component/Pages/Brand'
  import SideBar from './Component/Sidebar/SideBar';
 import User from './Component/Contents/User';
 
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <div className="content">
         <Navbar />
        <User/>
+       
       </div>
     </div>
   );
