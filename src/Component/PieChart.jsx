@@ -1,53 +1,14 @@
-// import React from 'react';
-// import { Doughnut } from 'react-chartjs-2';
-// import { Container } from 'react-bootstrap';
-// import 'chart.js/auto';
-// const data = {
-//     labels: ['un', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-//     datasets: [
-//       {
-//         data: [12, 19, 3, 5, 2, 3],
-//         backgroundColor: [
-//           '#FF6384',
-//           '#36A2EB',
-//           '#FFCE56',
-//           '#2ECC71',
-//           '#9B59B6',
-//           '#FFA500'
-//         ],
-//         hoverBackgroundColor: [
-//           '#FF6384',
-//           '#36A2EB',
-//           '#FFCE56',
-//           '#2ECC71',
-//           '#9B59B6',
-//           '#FFA500'
-//         ]
-//       }
-//     ]
-//   };
-  
 
-//   function MyDoughnutChart() {
-//     return (
-//       <Container className='w-50'>
-//         <Doughnut data={data} 
-//         width={50}
-//         height={50} />
-//       </Container>
-//     );
-//   }
-//   export default MyDoughnutChart;
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
 
 const data = {
-  labels: ['Label 1', 'Label 2', 'Label 3'],
+  labels: ['unsuitable', 'Interviewed'],
   datasets: [
     {
-      data: [30, 40, 30],
-      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+      data: [60, 40],
+      backgroundColor: ['#42c8f5', '#e6eff2'],
     },
   ],
 };
@@ -60,7 +21,7 @@ const DoughnutChart = () => (
         maintainAspectRatio: false,
         legend: {
           display: true,
-          position: 'right',
+          position: 'left',
         },
         tooltips: {
           callbacks: {

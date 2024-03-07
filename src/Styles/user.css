@@ -1,6 +1,7 @@
 .user-content{
    width:100%;
    border:1px black solid;
+   display:flex;
     
 }
 .jobs{
@@ -13,6 +14,8 @@
     border:1px solid #000;
     margin:10px 0;
     color:#ffffff;
+    border:none;
+    border-radius:3px;
  
 }
 h3{
@@ -21,7 +24,30 @@ h3{
 .applied{
     background-color:#4307C2;
     
+    
 }
 .interview{
     background-color:#CE1DA7;
+}
+.statues{
+    color:#1fbbef;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-size:bold;
+    margin:10px 30px;
+    border:1px solid #a4a2a2;
+    border-radius: 5px;
+}
+a{
+    color:#CE1DA7;
+    padding:10px;
+}
+.application{
+    border:1px solid #a4a2a2;
+}
+.image{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
 }

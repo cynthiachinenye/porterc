@@ -1,14 +1,18 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import '../../Styles/user.css'
 import PieChart from '../PieChart';
+import { Link } from 'react-router-dom';
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { MdOutlineKeyboardArrowLeft,MdOutlineKeyboardArrowRight } from "react-icons/md";
+import prof from '../../Assets/alex-suprun-ZHvM3XIOHoE-unsplash 1.png';
 
 const User = (props) => {
   const [name, setName] = useState('');
-  const [count,setCount] = useState(0);
-  const mouseHandle = ()=>{
-    setCount(count+1)
+  const [count, setCount] = useState(0);
+  const mouseHandle = () => {
+    setCount(count + 1)
   }
-  const {data}= props;
+  const { data } = props;
   return (
     <div className='user p-4'>
       <h1 className='fs-5 fw-bold'>Good Moring,{name}</h1>
@@ -26,10 +30,27 @@ const User = (props) => {
         </div>
 
         <div className='statues'>
-       <PieChart/>
-       
+        <h3>Jobs Applied Status</h3>
+          <PieChart />
+        <Link to="/">View All Aplications <FaLongArrowAltRight/> </Link>
+
         </div>
-        <div></div>
+        <div className='applications'>
+        <div><h3>Upcoming Interview</h3></div>
+        <div><p><span>Today</span>,7 March</p>
+        <MdOutlineKeyboardArrowLeft/><MdOutlineKeyboardArrowRight/>
+        </div>
+        <div className='time'>
+        <div><p>10:00Am</p><div></div></div>
+        <div><p>10:30Am</p><div className='profile-img'>
+        <img src={prof} alt='img' className='image'/>
+        <h4>Joe Bartmann</h4>
+        <p>HR Manager st Divvy</p>
+        </div></div>
+        <div><p>11:00Am</p><div></div></div>
+
+        </div>
+        </div>
 
       </div>
     </div>

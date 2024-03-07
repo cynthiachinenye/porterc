@@ -1,4 +1,4 @@
-import "../../Styles/sidebar.css"
+import "./sidebar.css"
 import React from 'react'
 import icon from '../../Assets/alex-suprun-ZHvM3XIOHoE-unsplash 1.png';
 import Logo from '../../Assets/site_logo_1600674075 1.png'
@@ -40,3 +40,6 @@ const Sidebar = () => {
 }
 
       export default Sidebar;
+
+
+      
