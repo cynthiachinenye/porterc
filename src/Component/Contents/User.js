@@ -36,7 +36,7 @@ const User = (props) => {
 
         </div>
         <div className='applications flex-column'>
-          <div className=''><h3>Upcoming Interview</h3></div>
+          <div className='border-bottom-1 border-dark'><h3>Upcoming Interview</h3></div>
           <div><p><span>Today</span>,7 March</p>
             <MdOutlineKeyboardArrowLeft /><MdOutlineKeyboardArrowRight />
           </div>
