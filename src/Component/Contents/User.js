@@ -36,13 +36,15 @@ const User = (props) => {
 
         </div>
         <div className='applications flex-column'>
-          <div className='border-bottom-1 border-dark'><h3>Upcoming Interview</h3></div>
-          <div><p><span>Today</span>,7 March</p>
+          <div className='border'>Upcoming Interview</div>
+          <div className="border "><span>Today</span>,7 March
             <MdOutlineKeyboardArrowLeft /><MdOutlineKeyboardArrowRight />
           </div>
           <div className='time'>
-            <div><p>10:00Am</p><div></div></div>
-            <div><p>10:30Am</p><div className='profile-img'>
+            <div>10:00Am<div  className='border'></div></div>
+            <div className='d-flex'>
+           <div> <p>10:30Am</p></div>
+            <div className='profile-img'>
               <img src={prof} alt='img' className='image' />
               <h4>Joe Bartmann</h4>
               <p>HR Manager st Divvy</p>
