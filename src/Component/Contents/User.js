@@ -35,10 +35,10 @@ const User = (props) => {
           <Link to="/" className='link'>View All Aplications <FaLongArrowAltRight /> </Link>
 
         </div>
-        <div className='applications flex-column'>
-          <div className='border'>Upcoming Interview</div>
-          <div className="border "><span>Today</span>,7 March
-            <MdOutlineKeyboardArrowLeft /><MdOutlineKeyboardArrowRight />
+        <div className='applications  flex-column'>
+          <div className='border fw-bold p-2'>Upcoming Interview</div>
+          <div className="border p-2"><span className='fw-bold'>Today</span>,7 March
+            <span className='ps-5 float-end'><MdOutlineKeyboardArrowLeft /><MdOutlineKeyboardArrowRight /></span>
           </div>
           <div className='time'>
             <div>10:00Am<div  className='border'></div></div>

@@ -44,9 +44,8 @@ h3{
     padding:10px;
 }
 .applications{
-    border:1px solid #a4a2a2;
+    border-bottom:1px solid #a4a2a2;
     margin:10px 30px;
-    padding-left:20px;
     width:500px;
     display:flex;
     
