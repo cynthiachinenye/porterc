@@ -44,10 +44,11 @@ h3{
     padding:10px;
 }
 .applications{
-    border-bottom:1px solid #a4a2a2;
+    border:1px solid #a4a2a2;
     margin:10px 30px;
     width:500px;
     display:flex;
+    border-radius: 5px;
     
     
 }
@@ -57,3 +58,10 @@ h3{
     height: 30px;
     border-radius: 50%;
 }
+.hr{
+    width:100%;
+    margin-left:50px;
+}
+.profile-img {
+    min-width:100%;
+}   

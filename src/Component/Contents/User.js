@@ -36,21 +36,25 @@ const User = (props) => {
 
         </div>
         <div className='applications  flex-column'>
-          <div className='border fw-bold p-2'>Upcoming Interview</div>
-          <div className="border p-2"><span className='fw-bold'>Today</span>,7 March
+          <div className='border border-bottom fw-bold p-3'>Upcoming Interview</div>
+          <div className="border border-bottom p-2"><span className='fw-bold p-2'>Today,</span>7 March
             <span className='ps-5 float-end'><MdOutlineKeyboardArrowLeft /><MdOutlineKeyboardArrowRight /></span>
           </div>
           <div className='time'>
-            <div>10:00Am<div  className='border'></div></div>
+            <div className='d-flex p-3'>10:00Am <hr className=' hr' /></div>
             <div className='d-flex'>
-           <div> <p>10:30Am</p></div>
-            <div className='profile-img'>
-              <img src={prof} alt='img' className='image' />
-              <h4>Joe Bartmann</h4>
-              <p>HR Manager st Divvy</p>
-            </div></div>
+              <div className='p-3 d-flex justify-content-between align-items-center'> 10:30Am
+              <div className='profile-img d-flex ms-5  rounded border border-none'>
+                <div className='d-flex  align-items-center'> <img src={prof} alt='img' className='image' />
+                 <div className='ps-3 lh-1 '> <h4 className='fs-6 fw-bold'>Joe Bartmann</h4>
+                  <p className='fs-6 fw-light '>HR Manager st Divvy</p>
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
             <div><p>11:00Am</p><div></div></div>
-            
+
           </div>
         </div>
 
